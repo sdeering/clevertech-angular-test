@@ -3,7 +3,7 @@
 https://github.com/clevertech/clevertech-angular-test
 
 
-# Setup (GitBash)
+## Setup (GitBash)
 
 cd /c/
 
@@ -13,7 +13,8 @@ git clone https://github.com/clevertech/clevertech-angular-test.git
 
 Note: It's best to run the app on a local server such as WAMP.
 
-# Apache (http.conf)
+## Apache (http.conf)
 
+<pre>
 DocumentRoot "C:/clevertech-angular-test/app/"
-<Directory "C:/clevertech-angular-test/app/">
+</pre>
