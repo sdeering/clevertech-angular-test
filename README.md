@@ -15,10 +15,9 @@ Note: It's best to run the app on a local server such as WAMP.
 
 ## Apache (http.conf)
 
-<pre>
 DocumentRoot "C:/clevertech-angular-test/app/"
-<<<<<<< HEAD
-</pre>
-=======
-</pre>
->>>>>>> 3c54d1d0faf087f3d9be60a14d73664f25f73db1
+
+
+## Additional Info
+
+Do not spend more than 30 mins on answering this test.
