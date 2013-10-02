@@ -15,5 +15,5 @@ Note: It's best to run the app on a local server such as WAMP.
 
 # Apache (http.conf)
 
-DocumentRoot "C:/clevertech-angular-seed/app/"
-<Directory "C:/clevertech-angular-seed/app/">
+DocumentRoot "C:/clevertech-angular-test/app/"
+<Directory "C:/clevertech-angular-test/app/">
