@@ -1,0 +1,76 @@
+<h1>Register Form</h1>
+
+<p>Register using the form below - all fields are required.</p>
+
+<form method="post" action="">
+
+      <!--
+            required
+            max chars 20
+            min chars 3
+        -->
+      Username: <input type="text" name="username" value="" placeholder="Your Desired Username"><br/>
+
+      <!--
+            required
+            email must not be already registered (in database)
+            valid email address
+        -->
+      Email: <input type="text" name="email" value="" placeholder="Your E-mail Address"><br/>
+
+      <!--
+            required
+            passwords must match
+            passwords must have at least 1 letter and 1 number
+            min chars 8
+        -->
+      Password: <input type="password" name="password" value="" placeholder="Your Password">
+      <input type="password" name="confirm" value="" placeholder="Confirm Password"><br/>
+
+      <!--
+            required
+        -->
+      Country:
+      <select>
+        <option value="">-- Choose Country --</option>
+        <option value="US">US</option>
+        <option value="AU">AU</option>
+        <option value="UK">UK</option>
+        <option value="Other">Other</option>
+      </select><br/>
+
+      <!--
+            required
+            valid web address
+        -->
+      Website: <input type="text" name="web" value="" placeholder="Your Web Address"><br/>
+
+
+      <!--
+            required
+            min chars 50
+        -->
+      About you: <br/><textarea name="textarea" id="about"></textarea></div>
+
+      <!--
+            required
+        -->
+      <p class="terms">
+        <label>
+          <input type="checkbox" name="terms" id="terms">
+           I accept  Terms &amp; Conditions.
+        </label>
+      </p>
+
+      <!--
+            submit
+            code a submit handler
+        -->
+      <p class="submit"><input type="submit" name="submit" value="Sign Up"></p>
+
+</form>
+
+<hr>
+
+<h3>Form Validation</h3>
+<p>Client-side form validation is an important part of great user experience. AngularJS lets you declare the validation rules of the form without having to write JavaScript code. Write less code, go have beer sooner.</p>
