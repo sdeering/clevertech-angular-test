@@ -17,4 +17,8 @@ Note: It's best to run the app on a local server such as WAMP.
 
 <pre>
 DocumentRoot "C:/clevertech-angular-test/app/"
+<<<<<<< HEAD
 </pre>
+=======
+</pre>
+>>>>>>> 3c54d1d0faf087f3d9be60a14d73664f25f73db1
